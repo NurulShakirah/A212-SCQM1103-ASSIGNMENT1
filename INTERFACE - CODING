@@ -1,0 +1,139 @@
+import java.util.Scanner;
+
+//Interface declaration
+public interface Assignment_1 {
+    
+    //Implementation
+    void Ans();
+    
+    class QuestionOne implements Assignment_1 {
+        
+        @Override
+        public void Ans() {
+            
+            Scanner sc = new Scanner (System.in);
+            int numOfChild = 12;         //no. of children
+            int numOfDays = 7;           //no. of days in a week
+            int x = 2;                   //at least 2 children born on same day of week
+            int answers;
+        
+            //calculation to prove the statement
+            answers = ((numOfChild - 1)/numOfDays) + 1;
+        
+            //the result 
+            if (x == answers) {
+                System.out.print("Shown that at least 2 children born on same day of week.");
+            }
+            else 
+                System.out.print("Not proven.");   
+        }
+    }
+    
+    class QuestionTwo implements Assignment_1 {
+        
+        @Override
+        public void Ans() {
+            
+            Scanner sc = new Scanner (System.in);
+            int numOfFamMem = 14;           // 12 children + father + mother
+            int numOfMonth = 12;
+            int x = 2;                      // at least 2 family member
+            int ans;
+            
+            //calculation to prove the statement
+            ans = ((numOfFamMem - 1)/numOfMonth) + 1;
+    
+            if (x == ans) {
+                System.out.print("Shown that at least 2 family member are born in the same month");
+            }
+            else 
+                System.out.print("Not proven.");
+        }
+    }
+    
+    class QuestionThree implements Assignment_1 {
+        
+        @Override
+        public void Ans() {
+            
+            Scanner sc = new Scanner(System.in);
+            int numOfChild = 12;
+            int numOfRoom = 4;         // no. of room in the house
+            int x = 3;                 //at least 3 children
+            int ans;
+     
+            //calculation to prove the statement
+            ans = ((numOfChild - 1)/numOfRoom) + 1;
+    
+            //the result
+            if (x == ans) {
+                System.out.println("Shown that at least 3 children in at least one bedroom.");
+            }
+            else
+                System.out.println("Not proven.");
+        }
+    }
+    
+    class TestAssignment_1 {
+        
+        public static void main(String[] args) {
+            
+            System.out.println("*********************************************************************");
+            System.out.println("*****||     WELCOME TO A212 SCQM1103 DISCRETE MATHEMATICS     ||*****");
+            System.out.println("*********************************************************************");
+            System.out.println("\n\n");
+            char choices;
+		Scanner input = new Scanner (System.in);
+		do {
+                System.out.println("+==================================================+");
+		System.out.println("|                   ASSIGNMENT 1                   |");
+		System.out.println("|========================+=========================|");
+		System.out.println("|       QUESTIONS        |       SELECTION         |");
+		System.out.println("|========================+=========================|");
+		System.out.println("| Question 1             |           1             |");
+		System.out.println("| Question 2             |           2             |");
+		System.out.println("| Question 3             |           3             |");
+                System.out.println("+========================+=========================+\n");
+		
+		System.out.print("Please select the option to view the answers of each questions based on the table above : ");
+                int opt = input.nextInt();
+                
+                if (opt == 1) {
+                    Assignment_1 Q1 = new QuestionOne();
+                    System.out.println("\n==========================================================================================");
+                    System.out.println("Answer for Question 1 : ");
+                    Q1.Ans();
+                    System.out.println("\n==========================================================================================");
+                }
+		else if (opt == 2) {
+                    Assignment_1 Q2 = new QuestionTwo();
+                    System.out.println("\n==========================================================================================");
+                    System.out.println("Answer for Question 2 : ");
+                    Q2.Ans();
+                    System.out.println("\n==========================================================================================");
+                }
+		else if (opt == 3) {
+                    Assignment_1 Q3 = new QuestionThree();
+                    System.out.println("\n==========================================================================================");
+                    System.out.println("Answer for Question 3 : ");
+                    Q3.Ans();   
+                    System.out.println("==========================================================================================");
+                }
+                else {
+                    System.out.println("\nERROR!!ERROR!!");
+                    System.out.println("There are no answers under this option as the question does not exist! Please refer to the table above.");
+                    System.out.println("Please kindly refer to the table above.");
+                }
+                
+                System.out.println("\n\n");
+		System.out.println("WOULD YOU LIKE TO RETURN TO THE MAIN MENU? [Y/N]");
+		choices = input.next().charAt(0);	
+		System.out.println();
+                }
+		while (choices == 'Y' || choices == 'y');
+                System.out.println("==========================================================================================");
+                System.out.println("|######################|                THANK YOU!                |######################|");
+                System.out.println("==========================================================================================\n");
+	  }
+  }
+}
