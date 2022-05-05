@@ -1,0 +1,142 @@
+*********************************************************************
+*****||     WELCOME TO A212 SCQM1103 DISCRETE MATHEMATICS     ||*****
+*********************************************************************
+
+
+
++==================================================+
+|                   ASSIGNMENT 1                   |
+|========================+=========================|
+|       QUESTIONS        |       SELECTION         |
+|========================+=========================|
+| Question 1             |           1             |
+| Question 2             |           2             |
+| Question 3             |           3             |
++========================+=========================+
+
+Please select the option to view the answers of each questions based on the table above : 1           //Yg ni OUTPUT 1
+
+==========================================================================================
+Answer for Question 1 : 
+Shown that at least 2 children born on same day of week.
+==========================================================================================
+
+
+
+WOULD YOU LIKE TO RETURN TO THE MAIN MENU? [Y/N]                    //For this line, kalau user enter 'Y' or 'y', nnti dia akan return balik ke main menu 
+Y                                                                   //Time dia return tu dia akan pergi balik ke part table tu
+                                                                    //Then user input je la either 1/2/3/4 
++==================================================+
+|                   ASSIGNMENT 1                   |
+|========================+=========================|
+|       QUESTIONS        |       SELECTION         |
+|========================+=========================|
+| Question 1             |           1             |
+| Question 2             |           2             |
+| Question 3             |           3             |
++========================+=========================+
+
+Please select the option to view the answers of each questions based on the table above : 2             //Yg ni OUTPUT 2
+
+==========================================================================================
+Answer for Question 2 : 
+Shown that at least 2 family member are born in the same month
+==========================================================================================
+
+
+
+WOULD YOU LIKE TO RETURN TO THE MAIN MENU? [Y/N]
+Y
+
++==================================================+
+|                   ASSIGNMENT 1                   |
+|========================+=========================|
+|       QUESTIONS        |       SELECTION         |
+|========================+=========================|
+| Question 1             |           1             |
+| Question 2             |           2             |
+| Question 3             |           3             |
++========================+=========================+
+
+Please select the option to view the answers of each questions based on the table above : 3             //Yg ni OUTPUT 3
+
+==========================================================================================
+Answer for Question 3 : 
+Shown that at least 3 children in at least one bedroom.
+==========================================================================================
+
+
+
+WOULD YOU LIKE TO RETURN TO THE MAIN MENU? [Y/N]
+Y
+
++==================================================+
+|                   ASSIGNMENT 1                   |
+|========================+=========================|
+|   QUESTIONS' ANSWERS   |       SELECTION         |
+|========================+=========================|
+| Question 1             |           1             |
+| Question 2             |           2             |
+| Question 3             |           3             |
+| All Questions          |           4             |
++========================+=========================+
+
+Please select the option to view the answers of each questions based on the table above : 4            //Yg ni OUTPUT 4
+
+==========================================================================================
+Answer for Question 1 : 
+Shown that at least 2 children born on same day of week.
+==========================================================================================
+
+==========================================================================================
+Answer for Question 2 : 
+Shown that at least 2 family member are born in the same month
+==========================================================================================
+
+==========================================================================================
+Answer for Question 3 : 
+Shown that at least 3 children in at least one bedroom.
+==========================================================================================
+
+
+
+WOULD YOU LIKE TO RETURN TO THE MAIN MENU? [Y/N]                                                //Line yg ni kalau user dh taknak access ke main menu
+N
+
+==========================================================================================
+|######################|                THANK YOU!                |######################|
+==========================================================================================
+
+
+
+//Also, another thing is, if user input other than "1/2/3/4", nnti dia akan keluar statement like "ERROR!ERROR!"
+//Mcm yg kat bwh ni :
+
+*********************************************************************
+*****||     WELCOME TO A212 SCQM1103 DISCRETE MATHEMATICS     ||*****
+*********************************************************************
+
+
+
++==================================================+
+|                   ASSIGNMENT 1                   |
+|========================+=========================|
+|       QUESTIONS        |       SELECTION         |
+|========================+=========================|
+| Question 1             |           1             |
+| Question 2             |           2             |
+| Question 3             |           3             |
+| All Question           |           4             |
++========================+=========================+
+
+Please select the option to view the answers of each questions based on the table above : 8      //cntohnya, dia input '8', but dlm list kan takde option '8',
+                                                                                                 //so dia akan keluar statement "ERROR!" ni
+ERROR!!ERROR!!
+There are no answers under this option as the question does not exist! Please refer to the table above.
+Please kindly refer to the table above.
+
+
+
+WOULD YOU LIKE TO RETURN TO THE MAIN MENU? [Y/N]          //bila dh keluar statement "ERROR!" tu, nnti dia akan keluar soalan ni balik, 
+                                                          //then cam biasalah, kalau nak proceed, input 'Y', kalau taknak proceed, input 'N'
+                                                          //itu sahaja, hehehe selamat mencubaaaaa :)
