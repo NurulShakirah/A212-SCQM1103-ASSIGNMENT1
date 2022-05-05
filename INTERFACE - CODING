@@ -93,6 +93,7 @@ public interface Assignment_1 {
 		System.out.println("| Question 1             |           1             |");
 		System.out.println("| Question 2             |           2             |");
 		System.out.println("| Question 3             |           3             |");
+                System.out.println("| All Question           |           4             |");
                 System.out.println("+========================+=========================+\n");
 		
 		System.out.print("Please select the option to view the answers of each questions based on the table above : ");
@@ -112,7 +113,24 @@ public interface Assignment_1 {
                     Q2.Ans();
                     System.out.println("\n==========================================================================================");
                 }
-		else if (opt == 3) {
+                else if (opt == 3) {
+                    Assignment_1 Q3 = new QuestionThree();
+                    System.out.println("\n==========================================================================================");
+                    System.out.println("Answer for Question 3 : ");
+                    Q3.Ans();   
+                    System.out.println("==========================================================================================");
+                }
+		else if (opt == 4) {
+                    Assignment_1 Q1 = new QuestionOne();
+                    System.out.println("\n==========================================================================================");
+                    System.out.println("Answer for Question 1 : ");
+                    Q1.Ans();
+                    System.out.println("\n==========================================================================================");
+                    Assignment_1 Q2 = new QuestionTwo();
+                    System.out.println("\n==========================================================================================");
+                    System.out.println("Answer for Question 2 : ");
+                    Q2.Ans();
+                    System.out.println("\n==========================================================================================");
                     Assignment_1 Q3 = new QuestionThree();
                     System.out.println("\n==========================================================================================");
                     System.out.println("Answer for Question 3 : ");
@@ -134,6 +152,6 @@ public interface Assignment_1 {
                 System.out.println("==========================================================================================");
                 System.out.println("|######################|                THANK YOU!                |######################|");
                 System.out.println("==========================================================================================\n");
-	  }
-  }
+	}
+    }
 }
